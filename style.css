@@ -224,3 +224,26 @@ header.scrolled {
     color: inherit;        /* Garante que o texto mantenha a cor original */
     display: block;        /* Faz com que o link preencha a área do cartão */
 }
+/* Customização da Scrollbar - Tema Aurora (Dark/Gold) */
+
+/* Largura da barra */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Fundo da calha da barra (Dark) */
+::-webkit-scrollbar-track {
+  background: #111111; 
+}
+
+/* O "pegador" da barra (Dourado) */
+::-webkit-scrollbar-thumb {
+  background: #c29e61; /* Ajuste este hex code para bater exatamente com o dourado do seu botão */
+  border-radius: 6px;
+  border: 3px solid #111111; /* Cria um efeito de preenchimento (padding) interno */
+}
+
+/* O "pegador" quando o mouse passa por cima (Dourado mais escuro) */
+::-webkit-scrollbar-thumb:hover {
+  background: #a8864f; 
+}
