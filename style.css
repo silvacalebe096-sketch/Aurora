@@ -41,7 +41,7 @@ a { text-decoration: none; color: inherit; }
 /* --- CONTROLE DA LOGO NOVA (Redimensionamento e Transparência) --- */
 .logo-link { display: flex; align-items: center; }
 .logo-img { 
-    height: 130px; /* Redimensionado para o header */
+    height: 130px; 
     width: auto; 
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
     transition: all 0.4s ease;
@@ -49,10 +49,10 @@ a { text-decoration: none; color: inherit; }
 
 /* Quando o header fica sólido ao rolar */
 header.scrolled .logo-img { 
-    height: 100px; /* Diminui levemente no scroll para não ocupar espaço */
+    height: 100px; 
 }
 
-/* Logo no Footer (um pouco maior para destaque) */
+/* Logo no Footer */
 .footer-logo-img {
     height: 150px;
     margin-bottom: -20px;
@@ -195,7 +195,7 @@ header.scrolled {
     border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 .footer-brand img {
-    height: 70px; /* Ajuste conforme a sua logo dourada */
+    height: 70px;
     margin-bottom: 15px;
 }
 .footer-brand p {
@@ -273,9 +273,9 @@ header.scrolled {
 .icon-item { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; font-weight: 500; color: var(--text-white); }
 .icon-item i { color: var(--gold-aurora); }
 .card-link {
-    text-decoration: none; /* Remove o sublinhado */
-    color: inherit;        /* Garante que o texto mantenha a cor original */
-    display: block;        /* Faz com que o link preencha a área do cartão */
+    text-decoration: none; 
+    color: inherit;        
+    display: block;        
 }
 /* Customização da Scrollbar - Tema Aurora (Dark/Gold) */
 
@@ -291,9 +291,9 @@ header.scrolled {
 
 /* O "pegador" da barra (Dourado) */
 ::-webkit-scrollbar-thumb {
-  background: #c29e61; /* Ajuste este hex code para bater exatamente com o dourado do seu botão */
+  background: #c29e61; 
   border-radius: 6px;
-  border: 3px solid #111111; /* Cria um efeito de preenchimento (padding) interno */
+  border: 3px solid #111111; 
 }
 
 /* O "pegador" quando o mouse passa por cima (Dourado mais escuro) */
